@@ -1,0 +1,1371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{800ef0a5-348a-c8d8-2b97-92294d547345}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_17;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;OCULUSINTEGRATION_PRESENT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportOrientationHandlerHMD.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimHandlerParabolic.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Firebase\StartCrashlytics.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\HandsActiveChecker.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.2\Demos - HandTracking\Scripts\LeapCoreAssetsDetector.cs" />
+     <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\UIButton_ShowNext.cs" />
+     <Compile Include="Assets\Scripts\ResetScene.cs" />
+     <Compile Include="Assets\Scripts\CellToTris.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughProjectionSurface.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\CowController.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\HandMeshUI.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\HandPose.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\InteractableTool.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\EnableUnpremultipliedAlpha.cs" />
+     <Compile Include="Assets\Scripts\TestSwitcher.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\NativeVideoPlayer.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimVisualLaser.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\MoviePlayerSample.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportDestination.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainButtonVisualController.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\GrabObject.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.2\Demos - HandTracking\Scripts\TetheredPlacement.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\SimpleCapsuleWithStickMovement.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\AugmentedObject.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\InteractableRegistry.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.2\Demos - HandTracking\Scripts\HandInteractionTouch.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\HandedInputSelector.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabbable.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\Utils\Pose.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportInputHandlerHMD.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportInputHandler.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabManager.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\CharacterCameraConstraint.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.2\Demos - HandTracking\Scripts\SystemKeyboardExample.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransitionWarp.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.2\Demos - HandTracking\Scripts\ToggleBoundingBox.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\VectorUtil.cs" />
+     <Compile Include="Assets\Scripts\DataObject.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\PauseOnInputLoss.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\InteractableToolsCreator.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Firebase\SampleUI.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportSupport.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ButtonController.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportOrientationHandler.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Scripts\LocomotionSampleSupport.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\Flashlight.cs" />
+     <Compile Include="Assets\Scripts\DataHandler.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Scripts\CharacterCapsule.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\LocomotionController.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandlerPhysical.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainTrack.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.2\Demos - HandTracking\Scripts\GestureTester.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Interactable.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\TouchControllers\TouchController.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainCar.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughSurface.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportPoint.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\FingerTipPokeTool.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandlerNavMesh.cs" />
+     <Compile Include="Assets\Scripts\ToggleTooltips.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\ControllerBoxController.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\AppDeeplink\UI\CustomDebugUI.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\ButtonDownListener.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimHandlerLaser.cs" />
+     <Compile Include="Assets\Scripts\XMLUnstructuredGrid.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.2\Demos - HandTracking\Scripts\DebugTextOutput.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughBrush.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughController.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ColliderZone.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\MoviePlayerSampleControls.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\WindmillController.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\SPPquad.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\LaserPointer.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransition.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\SelectionCylinder.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\PanelHMDFollower.cs" />
+     <Compile Include="Assets\Scripts\EnvironmentSwitcher.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\AppDeeplink\AppDeeplinkUI.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\DebugUI\DebugUISample.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\BrushController.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ButtonTriggerZone.cs" />
+     <Compile Include="Assets\Scripts\DataConverter.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.2\Demos - HandTracking\Scripts\RotateWithPan.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Firebase\AnalyticsUI.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.2\Demos - HandTracking\Scripts\LeapMotionOrientationDisplay.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\BoneCapsuleTriggerLogic.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\ColorGrabbable.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\MediaPlayerImage.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Scripts\DistanceGrabberSample.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\HandsManager.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\SceneSampler.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandlerNode.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabbableCrosshair.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainLocomotive.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.2\Demos - HandTracking\Scripts\GrabTouchExample.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportOrientationHandlerThumbstick.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainCrossingController.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\StartScene\Scripts\StartMenu.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\HandMeshMask.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.2\Demos - HandTracking\Scripts\SolverTrackedTargetType.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransitionBlink.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\PinchStateModule.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\WindmillBladesController.cs" />
+     <Compile Include="Assets\Scripts\scaleInhibitor.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.2\Demos - HandTracking\Scripts\LaunchUri.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportInputHandlerTouch.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransitionInstant.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\InteractableToolView.cs" />
+     <Compile Include="Assets\Scripts\ObjectRenderer.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\InteractableToolsInputRouter.cs" />
+     <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\FreeCam.cs" />
+     <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\SuperCamera.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\ObjectManipulator.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\OverlayPassthrough.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\LocomotionTeleport.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Scripts\OVROverlayCanvas.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportOrientationHandler360.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimHandler.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\FlashlightController.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\RayToolView.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainCarBase.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\RayTool.cs" />
+     <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\FreeCamera.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\FingerTipPokeToolView.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.2\Demos - HandTracking\Scripts\DemoTouchButton.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\OVROverlay\Scripts\OVROverlaySample.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandler.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughStyler.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\SelectivePassthroughExperience.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.7.2\Demos - HandTracking\Scripts\HandInteractionTouchRotate.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrackSegment.cs" />
+     <None Include="Assets\Resources\data_2\out_roller_155000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_39000.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_67000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_71000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_85000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_62.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_143.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\Resources\data_2\out_roller_93000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_39.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_16.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_20.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_4000.xml" />
+     <None Include="Assets\MRTK\Shaders\Text3DShader.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_61000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_68000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_118.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_128.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_97.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_0.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_6000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_14.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_15.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_158.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_151000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_32000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_56.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_116.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_61.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_91.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_73.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_58.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_156000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_141.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_71.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_49.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_136.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_27.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_36000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_144000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_106.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\SelectivePassthrough.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_109.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_37.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_12.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_72000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_7.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_86.xml" />
+     <None Include="Assets\MRTK\Shaders\InstancedColored.shader" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\SelectivePassthroughSoft.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_19000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_81.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_13000.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_128000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_20000.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_102000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_63.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_45000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_79.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_106000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_130.xml" />
+     <None Include="Assets\MRTK\Shaders\ChannelPacker.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_111.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_156.xml" />
+     <None Include="Assets\MixedRealityToolkit.Generated\link.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_113000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_41.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_157.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\GradientSkybox.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_86000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_8000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_9000.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\PassthroughLine.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_149.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_42.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\BackgroundColor.shader" />
+     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Standard (Specular setup) Opaque.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_13.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_93.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\FatFingers.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_90.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_64.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_127.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_136000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_130000.xml" />
+     <None Include="Assets\Scripts\VertexLit.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_57.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_134.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_108.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_18.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\Resources\data_2\out_roller_154000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_66000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_92000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_41000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_142.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_10000.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_112000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_153000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_59000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_107000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_6.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_28.xml" />
+     <None Include="Assets\MRTK\Shaders\InvisibleShader.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_111000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_132.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_70000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_24.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_146000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_147.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_131000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_151.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_17000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_142000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_78000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_152.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_155.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_152000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_145000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_114000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_116000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_38.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainPropsShader.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_102.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_123000.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\ToyCubeWithOutline.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_95.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_96.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Core\Locomotion\Materials\ColumnGlow.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_159000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_139000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_65000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_25.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_21000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_119000.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_80.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_38000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_90000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_88.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_107.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_79000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_124000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_97000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_126000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_125.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_12000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_77.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_139.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_47000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_118000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_29.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_23000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_84000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_28000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_74.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_103000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_87000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_30000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_96000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_35000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_64000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_29000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_158000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_120000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_53.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_99.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_56000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_80000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_19.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_115.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_98000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_135.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_94000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_55000.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Core\Video\Shaders\Multiview Stereo.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_81000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_129.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_2.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_100000.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Core\DebugUI\Fonts\Montserrat\OFL.txt" />
+     <None Include="Assets\Resources\data_2\out_roller_2000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_105.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_5.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_47.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_117000.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Shaders\UI Default Correct.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_112.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_133000.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_01.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_63000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_153.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_137.xml" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_46.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_126.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_110.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_104000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_75.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_122000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_95000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_23.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Resources\data_2\out_roller_157000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_120.xml" />
+     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Standard (Specular setup) Transparent.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Resources\data_2\out_roller_16000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_140.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_65.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_76000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_75000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_43000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_55.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_115000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_69000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_68.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_3000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_7000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_138.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_40.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_48.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_84.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Resources\data_1\out_skin_87.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_36.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_83000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_73000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_131.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_85.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_4.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_52.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_123.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_17.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_3.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_70.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Shaders\OculusSampleAlphaHandOutline.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_45.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_104.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_144.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_22000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_147000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_15000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_129000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_113.xml" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Resources\data_1\out_skin_8.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_33000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_108000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_101.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_127000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_141000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_59.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_110000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_119.xml" />
+     <None Include="Assets\MRTK\Shaders\MixedRealityStandard.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_60000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_1000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_133.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_31.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_117.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_82000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_146.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_124.xml" />
+     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Lite Standard (Specular setup) Transparent.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_88000.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\GlowEffect.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_1.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_14000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_40000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_26000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_99000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_149000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_54000.xml" />
+     <None Include="Assets\MRTK\Shaders\MixedRealityTextMeshPro.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_46000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_51000.xml" />
+     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\Readme.txt" />
+     <None Include="Assets\Resources\data_1\out_skin_148.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_42000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_94.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_18000.xml" />
+     <None Include="Assets\MRTK\Shaders\MRTK_Wireframe.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_31000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_67.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_9.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_134000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_44.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_101000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_72.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_76.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_44000.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainSmokeShader.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_21.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_125000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_27000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_150.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_34000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_57000.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Shaders\UI Prerendered Opaque.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_11000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_132000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_121000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_109000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_66.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_83.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_145.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_48000.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\NOTICE.txt" />
+     <None Include="Assets\Resources\data_2\out_roller_50000.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Shaders\TriPlanarWorld.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_154.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_150000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_89.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_25000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_24000.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Lite Standard (Specular setup) Opaque.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_100.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_105000.xml" />
+     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Lite Standard (Specular setup) Cutout.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_26.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\ThirdPartyNotices.txt" />
+     <None Include="Assets\Resources\data_2\out_roller_77000.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_114.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Shaders\UI Prerendered.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_135000.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_Transparent.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\MRTK\Shaders\DepthBufferPostProcess.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_82.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_35.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_74000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_91000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_10.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_53000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_148000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_58000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_51.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_34.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_140000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_137000.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_02.shader" />
+     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Standard (Specular setup) Cutout.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_49000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_33.xml" />
+     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_DiffBump.shader" />
+     <None Include="Assets\Resources\data_2\out_roller_37000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_121.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_52000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_122.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_103.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_92.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_11.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_138000.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_62000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_69.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_32.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_22.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_5000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_78.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_89000.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Resources\data_1\out_skin_50.xml" />
+     <None Include="Assets\MRTK\Shaders\MixedRealityShaderUtils.cginc" />
+     <None Include="Assets\Resources\data_1\out_skin_54.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_43.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_30.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_60.xml" />
+     <None Include="Assets\Resources\data_2\out_roller_143000.xml" />
+     <None Include="Assets\Resources\data_1\out_skin_98.xml" />
+     <None Include="Assets\Oculus\SampleFramework\license.txt" />
+    <Reference Include="UnityEngine">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PackageManagerUIModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIServiceModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.SDK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Gltf">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Gltf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputAnimation">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.TeleportSystem">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.HandPhysics">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.SceneSystem">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Editor.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Extensions.Tracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Oculus.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.Inspectors">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.SDK">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Examples">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Examples.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.CameraSystem">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.OpenXR">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Tools.Runtime">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Tools.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Subsystem.Registration">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.ClassExtensions">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="MRTK.OpenXR.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/MRTK.OpenXR.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Oculus">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Async">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Gltf.Importers">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Gltf.Importers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Tools">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor">
+        <HintPath>C:/Users/Preslav/Documents/mrtk_new - Copy/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Oculus.AudioManager.csproj">
+      <Project>{6d6bd1d0-1a1f-ebb2-0ba0-b16e2021f0f5}</Project>
+      <Name>Oculus.AudioManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Platform.csproj">
+      <Project>{84ed9672-ca99-960b-6351-43be5603d54e}</Project>
+      <Name>Oculus.Platform</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
+      <Project>{6681f3f5-b2f4-7847-4152-5cbf7649e1ab}</Project>
+      <Name>Oculus.AudioManager.Utils.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.csproj">
+      <Project>{159a6db9-a0ed-0bbf-0b8a-c4f8575f27de}</Project>
+      <Name>Oculus.VR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.AudioManager.Audio.Editor.csproj">
+      <Project>{fb7cc158-4c57-a5ad-6122-fff46140e94c}</Project>
+      <Name>Oculus.AudioManager.Audio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
+      <Project>{d2c53894-c7b5-c754-2df7-72e081218d2b}</Project>
+      <Name>Oculus.Spatializer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.Editor.csproj">
+      <Project>{ca28d568-a1a4-da32-0e09-f481b2d149c6}</Project>
+      <Name>Oculus.VR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
+      <Project>{ebb7f9b9-2ed2-d86f-6356-32afba2dbbdd}</Project>
+      <Name>Oculus.VR.Scripts.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Spatializer.csproj">
+      <Project>{5b9c6978-cb1f-9099-2fb7-b62b412cbaf9}</Project>
+      <Name>Oculus.Spatializer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Platform.Editor.csproj">
+      <Project>{97eba00c-ec9f-589f-9ed9-9d21001a2160}</Project>
+      <Name>Oculus.Platform.Editor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
